@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.frist {
+  background-image: url(../img/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.377);
+  background-attachment: fixed;
+}
+nav {
+  top: 0;
+
+  right: 0;
+  left: 0;
+}
+
+.hambozo h2::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  top: 50px;
+}
+.hambozo2 {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.nav-link span::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #d4deea;
+  width: 0px;
+  bottom: 1px;
+
+  transition: 0.5s ease-in-out;
+}
+li:hover span::before {
+  width: 45px;
+}
+
+.counter {
+  background-image: url(../img/counters-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+ 
+}
+.card2 img {
+  transition: all 1s;
+}
+.card2 img:hover {
+  transform: scale(1.2);
+}
+.slider {
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+}
+.hambozo3 {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 35%;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.hamozo4 {
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+}
